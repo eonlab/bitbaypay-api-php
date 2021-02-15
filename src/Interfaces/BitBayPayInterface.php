@@ -1,11 +1,11 @@
 <?php
 
-namespace PacerIT\BitBayPayAPI\Interfaces;
+namespace Eonlab\BitBayPayAPI\Interfaces;
 
-use PacerIT\BitBayPayAPI\Exceptions\CallMethodError;
-use PacerIT\BitBayPayAPI\Exceptions\CallPaymentsMethodError;
-use PacerIT\BitBayPayAPI\Exceptions\CredentialsNotSet;
-use PacerIT\BitBayPayAPI\Exceptions\MethodResponseFail;
+use Eonlab\BitBayPayAPI\Exceptions\CallMethodError;
+use Eonlab\BitBayPayAPI\Exceptions\CallPaymentsMethodError;
+use Eonlab\BitBayPayAPI\Exceptions\CredentialsNotSet;
+use Eonlab\BitBayPayAPI\Exceptions\MethodResponseFail;
 use Psr\Http\Message\ResponseInterface;
 
 /**
