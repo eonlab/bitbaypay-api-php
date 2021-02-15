@@ -1,6 +1,6 @@
 <?php
 
-namespace PacerIT\BitBayPayAPI\Exceptions;
+namespace Eonlab\BitBayPayAPI\Exceptions;
 
 use Throwable;
 
