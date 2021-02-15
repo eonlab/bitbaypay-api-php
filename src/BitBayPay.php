@@ -1,14 +1,14 @@
 <?php
 
-namespace PacerIT\BitBayPayAPI;
+namespace Eonlab\BitBayPayAPI;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
-use PacerIT\BitBayPayAPI\Exceptions\CallMethodError;
-use PacerIT\BitBayPayAPI\Exceptions\CallPaymentsMethodError;
-use PacerIT\BitBayPayAPI\Exceptions\CredentialsNotSet;
-use PacerIT\BitBayPayAPI\Exceptions\MethodResponseFail;
-use PacerIT\BitBayPayAPI\Interfaces\BitBayPayInterface;
+use Eonlab\BitBayPayAPI\Exceptions\CallMethodError;
+use Eonlab\BitBayPayAPI\Exceptions\CallPaymentsMethodError;
+use Eonlab\BitBayPayAPI\Exceptions\CredentialsNotSet;
+use Eonlab\BitBayPayAPI\Exceptions\MethodResponseFail;
+use Eonlab\BitBayPayAPI\Interfaces\BitBayPayInterface;
 use Psr\Http\Message\ResponseInterface;
 use Rakit\Validation\Validator;
 use Ramsey\Uuid\Uuid;
