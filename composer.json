@@ -1,5 +1,5 @@
 {
-    "name": "pacerit/bitbaypay-api-php",
+    "name": "eonlab/bitbaypay-api-php",
     "description": "Implementation of BitBayPay REST API",
     "type": "library",
     "keywords": [
