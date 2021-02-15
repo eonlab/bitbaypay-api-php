@@ -10,7 +10,7 @@
     "require": {
         "php": "^7.2",
         "ext-json": "*",
-        "guzzlehttp/guzzle": "^6.5",
+        "guzzlehttp/guzzle": "^7.2",
         "ramsey/uuid": "^3.9",
         "rakit/validation": "^1.2"
     },
@@ -30,12 +30,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "PacerIT\\BitBayPayAPI\\": "src/"
+            "Eonlab\\BitBayPayAPI\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PacerIT\\BitBayPayAPI\\Tests\\": "tests"
+            "Eonlab\\BitBayPayAPI\\Tests\\": "tests"
         }
     },
     "scripts": {
